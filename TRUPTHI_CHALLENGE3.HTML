@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment-3</title>
+</head>
+<body>
+ <link rel="stylesheet" href="Assignment3.css">
+ <title>Program3</title>
+ <header><nav>
+ <a href="/html">HOME</a> |
+ <a href="/html">LOCATIONS</a> |
+ <a href="/html">PICTURES</a> |
+ <a href="/html">ABOUT US</a>
+ </nav>
+ </header> 
+ <h2><u>PARIS</u></h2>
+ <p id="demo"></p>
+ <script>
+ var var1 = setInterval(inTimer, 500);
+ var fs = 5; 
+ var ids = document.getElementById("demo");
+ function inTimer()
+ {
+ ids.innerHTML = 'P A R I S';
+ ids.setAttribute('style', "font-size: " + fs + "px; color: #33ccff");
+ fs += 5;
+ if (fs >= 50)
+ {
+ clearInterval(var1);
+ var2 = setInterval(deTimer, 500);
+ }
+ }
+ function deTimer() {
+ fs -= 5;
+ ids.innerHTML = 'P A R I S';
+ ids.setAttribute('style', "font-size: " + fs + "px; color: #ff3333");
+ if (fs == 5)
+ {
+ clearInterval(var2);
+ var1 = setInterval(inTimer, 500);
+ }
+ }
+</script>
+ <h2><title>Paris</title></h2>
+
+ <img src="eiffil tower.jpg" alt="" width="400" 
+height="233" class=center >
+ <br>
+ <h3>by<a href="/html"> TRUPTHI </a></h3>
+ <h2><article><strong>Paris is unarguably one of the most beautiful cities in the world,
+      the capital of France, of art and of fashion.
+    There are a thousand things to do and see in Paris and however much 
+    time you have here, it won’t be enough:
+    Climb to the top of the Eiffel Tower,
+     stroll down the Champs Elysées, 
+     visit the Louvre, see many shows and exhibitions, 
+     or simply wander along the banks of the Seine...
+     read in French in the Tuileries garden, 
+     and quite simply take the time to experience the Parisian way of life!
+    Stepping into this whirlwind that takes you from frenzy 
+    to romanticism will leave you with enduring memories.
+     You will be much more proficient in French and you will become aware of
+      your ability to communicate in the language of Molière.</strong></article></h2>
+ <br><h3>
+ <section>Year:2020<br>
+ Date:21st May</h3></section>
+ <h1><u> Reviews </u></h1> 
+ <h2><section>
+ <strong>Paris is undoubtablely the most beautiful city in the world ,
+     it was an amazing experience and the food in france is delectable.
+ </strong>
+ <br>
+ <stong>Ian Somerholder </strong>
+    <br>
+    <img src="5 star.jpg" alt="rating" width="200" height="50";> 
+ <br>
+ <strong>Breathtakingly beautiful!! </strong><br>
+ <hr>
+ <strong>The Louvre Museum at night is 
+     a spectacle to look at.The rich history and stunning art make you 
+     feel like you have gone back in time. </strong> 
+ <br>
+ <stong>Marcus Baker</strong><br><img src="4 star.jpg" alt="rating" width="200" height="50";>
+ <br> <strong>The beauty of this city is a feast for the human eye!</strong><br>
+ <hr>
+ <strong>This Parisian vacation is a once in a lifetime experience!</strong>
+ <br>
+ <stong>Sutton</strong><br><img src="5 star.jpg" alt="rating" width="200" height="50";>
+ <br>
+ <strong>It is the most serene and Dreamy location in the world!!</strong><br>
+ <hr>
+ </h2> 
+ </section>
+ <footer><nav>
+ <a href="/html">HOME</a> |
+ <a href="/html">LOCATIONS</a> |
+ <a href="/html">PICTURES</a> |
+ <a href="/html">ABOUT US</a>
+ </nav>
+<br>
+</footer>
+</body>
+</html>
